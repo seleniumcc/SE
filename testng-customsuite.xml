@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" parallel="methods" thread-count="2" >
+  <test  name="Default test" preserve-order="false">
+    <classes >
+   <!--    <class name="automation.poc.C3"/>
+    <class name="automation.poc.C3"/> -->
+	  <class name="automation.testcase.C1"/>
+       <!--      <class name="automation.poc.C4"/>
+          <class name="automation.poc.C41"/>
+        <class name="automation.poc.C5"/>
+        <class name="automation.poc.C6"/>-->
+    </classes>
+  </test> 
+
+</suite> <!-- Default suite -->
